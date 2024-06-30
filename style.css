@@ -114,6 +114,9 @@ clock,
 }
 
 #clock {
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 9;
     background-color: #000000;
 }
 
@@ -175,6 +178,7 @@ label:focus {
 }
 
 #memory {
+    border-radius: 9;
     background-color: #ff0000;
 }
 
@@ -195,6 +199,7 @@ label:focus {
 }
 
 #pulseaudio {
+    border-radius: 9;
     background-color: #ff00e6;
     color: #000000;
 }
@@ -236,6 +241,7 @@ label:focus {
 }
 
 #tray {
+    border-radius: 9;
     background-color: #2980b9;
 }
 
