@@ -213,7 +213,13 @@ label:focus {
     background-color: #fff0f5;
     color: #000000;
 }
-
+#custom-notifs {
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #c400ff;
+    color: #000000;
+}
 #wireplumber.muted {
     background-color: #f53c3c;
 }

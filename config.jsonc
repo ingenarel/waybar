@@ -31,7 +31,8 @@
         // "battery#bat2",
 	// help
         "clock",
-        "tray"
+        "tray",
+	"custom/notifs"
     ],
     // Modules configuration
      "hyprland/workspaces": {
@@ -50,6 +51,11 @@
              "default": "",
 	     "active": "",
          }
+     },
+     "custom/notifs": {
+         "format": "🔔",
+         "tooltip": false,
+         "on-click": "swaync-client -t -sw"
      },
     "keyboard-state": {
         "numlock": true,
