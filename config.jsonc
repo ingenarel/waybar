@@ -142,13 +142,15 @@
   },
     "cpu": {
         "format": "{usage}% ",
-	"interval": 1,
+	    "interval": 1,
         "tooltip": true,
+        "on-click": "kitty -e btop"
     },
     "memory": {
         "format": "{}% ",
-	"tooltip": true,
-	"interval": 1
+	    "tooltip": true,
+	    "interval": 1,
+        "on-click": "kitty -e btop"
     },
     "temperature": {
         // "thermal-zone": 2,

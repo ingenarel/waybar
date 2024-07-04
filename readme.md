@@ -1,1 +1,2 @@
 - swaync for the notification daemon
+- btop for system monitoring
