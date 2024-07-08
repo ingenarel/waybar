@@ -55,7 +55,7 @@
      },
      "custom/power": {
          "format": "⏻",
-         "on-click": "bash /home/ingenarel/.config/wofi/test.sh",
+         "on-click": "bash /home/ingenarel/.config/wofi/shutdown.sh",
          "tooltip": false
      },
      "custom/notifs": {
