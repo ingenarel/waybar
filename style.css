@@ -220,6 +220,13 @@ label:focus {
     background-color: #c400ff;
     color: #000000;
 }
+#custom-power {
+    border-radius: 50%;
+    padding-left: 8px;
+    padding-right: 10px;
+    background-color: #ff0000;
+    color: #000000;
+}
 #wireplumber.muted {
     background-color: #f53c3c;
 }

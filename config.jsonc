@@ -7,6 +7,7 @@
     "spacing": 3, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+        "custom/power",
         "hyprland/workspaces",
         // "hyprland/mode",
         //"hyprland/scratchpad",
@@ -49,8 +50,13 @@
              "urgent": "",
              //"focused": "",
              "default": "",
-	     "active": "",
+	     "active": ""
          }
+     },
+     "custom/power": {
+         "format": "⏻",
+         "on-click": "bash /home/ingenarel/.config/wofi/test.sh",
+         "tooltip": false
      },
      "custom/notifs": {
          "format": "🔔",
