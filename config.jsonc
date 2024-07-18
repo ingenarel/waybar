@@ -9,7 +9,7 @@
     "modules-left": [
         "custom/power",
         "hyprland/workspaces",
-        // "hyprland/mode",
+         //"hyprland/mode",
         //"hyprland/scratchpad",
         "custom/media"
     ],
@@ -17,7 +17,7 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "mpd",
+        //"mpd",
         // "idle_inhibitor",
         "pulseaudio",
         // "network",
