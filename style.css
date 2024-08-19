@@ -214,9 +214,9 @@ label:focus {
     color: #000000;
 }
 #custom-notifs {
-    border-radius: 50%;
+    border-radius: 9;
     padding-left: 7px;
-    padding-right: 7px;
+    padding-right: 3px;
     background-color: #c400ff;
     color: #000000;
 }
