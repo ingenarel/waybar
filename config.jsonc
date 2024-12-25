@@ -167,13 +167,13 @@
         "format": "{usage}% ",
 	    "interval": 2,
         "tooltip": true,
-        "on-click": "hyprctl dispatch exec '[float; size 80% 80%; center]' 'kitty -e btop'",
+        "on-click": "hyprctl dispatch exec '[float; size 80% 80%; center]' 'kitty -e sudo btop'",
     },
     "memory": {
         "format": "{}% ",
 	    "tooltip": true,
 	    "interval": 2,
-        "on-click": "hyprctl dispatch exec '[float; size 80% 80%; center]' 'kitty -e btop'",
+        "on-click": "hyprctl dispatch exec '[float; size 80% 80%; center]' 'kitty -e sudo btop'",
     },
 
     //"temperature": {
